@@ -30,3 +30,16 @@ header {
     width: 80%;
     padding-left: 0;
 }
+
+footer {
+    display: flex;
+    color: var(--info);
+    flex-direction: column;
+    align-items: center;
+    padding: var(--small);
+}
+
+footer img {
+    width: var(--medium);
+    padding: var(--small);
+}
