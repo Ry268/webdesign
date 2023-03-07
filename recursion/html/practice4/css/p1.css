@@ -31,6 +31,23 @@ header {
     padding-left: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.archives {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.archives img {
+    width: var(--img-width);
+    margin: var(--small);
+}
+
 footer {
     display: flex;
     color: var(--info);
