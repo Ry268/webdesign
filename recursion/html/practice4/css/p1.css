@@ -1,0 +1,32 @@
+:root {
+    --small: 0.5rem;
+    --medium: 2rem;
+    --big: 3rem;
+    --btn-width: 10rem;
+    --img-width: 20rem;
+    --white: #fff;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --info: #17a2b8;
+    --breakpoint-lg: 992px;
+} 
+
+ /* ----- ここからheaderのCSSを記述しましょう ----- */
+ /* 色や大きさはCSS変数を使ってください。 */
+header {
+    color: var(--info);
+    display: flex;
+    justify-content: center;
+    padding:0 var(--medium);
+    /* 要素を折りたたむ */
+    flex-wrap: wrap;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-left: 0;
+}
